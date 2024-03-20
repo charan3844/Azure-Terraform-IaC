@@ -11,11 +11,7 @@ terraform {
 # Provider Block
 # Terraform authenticating using the Azure CLI, Service Principal, OpenID Connect (OIDC) and Managed Service Identity (MSI).
 provider "azurerm" {
-  features {}
-  
-   
-   
-   
+  features {} 
 }
 
 #Resorce Block
