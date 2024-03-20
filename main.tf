@@ -1,4 +1,4 @@
-# Terraform block - 2
+# Terraform block - 10
 terraform {
   required_providers {
     azurerm = {
