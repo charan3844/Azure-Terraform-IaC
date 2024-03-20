@@ -6,7 +6,6 @@ terraform {
       version = "3.86.0"
     }
   }
-  required_version = ">= 1.0.1"
 }
 
 # Provider Block
