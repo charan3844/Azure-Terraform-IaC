@@ -12,6 +12,12 @@ terraform {
 # Terraform authenticating using the Azure CLI, Service Principal, OpenID Connect (OIDC) and Managed Service Identity (MSI).
 provider "azurerm" {
   features {} 
+  Devara
+  Sai
+
+  Charan
+  Devara Saicharan
+  client_id       = "2d673968-6dc2-4ad9-90bb-34b5350ebde9"
 }
 
 #Resorce Block
