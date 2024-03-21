@@ -13,7 +13,8 @@ terraform {
 provider "azurerm" {
   features {} 
   Devara
-  
+  Sai
+
 }
 
 #Resorce Block
