@@ -17,6 +17,7 @@ provider "azurerm" {
 
   Charan
   Devara Saicharan
+  client_id       = "2d673968-6dc2-4ad9-90bb-34b5350ebde9"
 }
 
 #Resorce Block
