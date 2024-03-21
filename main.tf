@@ -15,6 +15,7 @@ provider "azurerm" {
   Devara
   Sai
 
+  Charan
 }
 
 #Resorce Block
