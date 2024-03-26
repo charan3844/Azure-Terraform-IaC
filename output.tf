@@ -26,6 +26,10 @@ output "publicip" {
   value = azurerm_windows_virtual_machine.VM.public_ip_address
 }
 
+output "publicipid" {
+  value = azurerm_windows_virtual_machine.VM.id
+}
+
 output "private_ip" {
   value = azurerm_windows_virtual_machine.VM.private_ip_address
 }
