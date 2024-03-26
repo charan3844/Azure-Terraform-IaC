@@ -32,8 +32,4 @@ output "password" {
   description = "Output is the sensitive data"
 }
 
-output "not sensitive" {
-  value     = azurerm_windows_virtual_machine.VM.admin_password
-  description = "Output is the sensitive data"
-}
 
