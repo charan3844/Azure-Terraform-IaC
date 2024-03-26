@@ -14,10 +14,6 @@ output "vnetname" {
   value = azurerm_virtual_network.VNET.name
 }
 
-output "vnetid" {
-  value = azurerm_resource_group.VNET.id
-}
-
 output "vnetfunction" {
   value = join("",[var.prefix], [var.vnetname])
 }
