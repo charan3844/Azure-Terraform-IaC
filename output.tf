@@ -1,7 +1,3 @@
-output "resourcegroupname" {
-  value = azurerm_resource_group.RG.name
-}
-
 output "rgnamefunction" {
   value = join("",[var.prefix], [var.rgname])
 }
