@@ -2,10 +2,6 @@ output "rgnamefunction" {
   value = join("",[var.prefix], [var.rgname])
 }
 
-output "rgid" {
-  value = azurerm_resource_group.RG.id
-}
-
 output "vnetname" {
   value = azurerm_virtual_network.VNET.name
 }
